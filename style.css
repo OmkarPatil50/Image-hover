@@ -43,3 +43,78 @@ body{
 }
 
 
+.container-contact{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin-top: 1000px;
+    margin-right: 150px;
+    justify-content: center;
+    align-items: center;}
+
+.hero-img{
+    width: 85px;
+    height: 80px;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition-duration: 0.5s;
+    z-index: -1;
+    
+}
+
+.container-contact:hover .hero-img{
+    width:95px ;
+    height: 90px;
+    box-shadow: 0 0 20px skyblue;
+}
+
+
+.container-contact:hover .icon-git{
+    transform:rotate(60deg) translateY(-100px) ;
+    box-shadow: 0 0 20px skyblue;
+    transition-delay: 0.4s;
+}
+
+.container-contact:hover .icon-insta{
+    transition-delay: 0.3s;
+    transform:rotate(30deg) translateY(-100px) ;
+    box-shadow: 0 0 20px skyblue;
+  
+}
+
+.container-contact:hover .icon-ln{
+    transform:rotate(0deg) translateY(-100px) ;
+    box-shadow: 0 0 20px skyblue;
+    transition-delay: 0.2s;
+}
+
+.container-contact:hover .icon-tw{
+    transform:rotate(-30deg) translateY(-100px) ;
+    box-shadow: 0 0 20px skyblue;
+    transition-delay: 0.1s;}
+
+.container-contact:hover .icon-tele{
+    transform:rotate(-60deg) translateY(-100px) ;
+    box-shadow: 0 0 20px skyblue;
+   
+}
+
+
+i{transition: transform;
+    transition-duration: 0.5s;
+}
+
+.hero-img:hover .hero-img{
+    transform: rotate(360deg);
+}
+
